@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="utf-8" http-equiv="encoding"/>
+
+    <!--- Facebook Open Graph properties: --->
+    <meta property="og:type" content="game"/>
+    <meta property="og:url" content="https://deadline.guide/"/>
+    <meta property="og:site_name" content="Deadline calculator"/>
+    <meta property="og:title" content="Deadline calculator"/>
+    <meta property="og:description" content="Use our advanced dynamic blockchain-powered AI cloud algorithm to compute a realistic deadline for your project!"/>
+
+    <meta name=”twitter:title” content="Deadline calculator" />
+    <meta name=”twitter:description” content="Use our advanced dynamic blockchain-powered AI cloud algorithm to compute a realistic deadline for your project!"/>
+    <meta name=”twitter:url” content=”https://deadline.guide/” />
+
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./style.css"/>
+
+    <script src="./script.js"></script>
+
+    <title>Deadline calculator - The advanced deadline computing service!</title>
+</head>
+  <body>
+    <h1>Deadline calculator
+    </h1>
+    <form>
+      <label for="input1">Business impact</label>
+      <select id="input1">
+        <option value="0"> Unknown
+        <option value="1"> Critical
+        <option value="2"> Very high
+        <option value="3"> High
+        <option value="4"> Moderate
+        <option value="5"> Nice-to-have
+      </select><br/>
+      
+      <label for="input2">Team size</label>
+      <input type="number" id="input2"/><br/>
+      
+      <label for="input3">Story points</label>
+      <input type="number" id="input3"/><br/>
+      
+      <label for="input4">Started on</label>
+      <input type="date" id="input4"/><br/>
+
+      <label for="input5">Percent completed</label>
+      <input type="number" id="input5" min="0" max="110"/><br/>
+
+      <input type="button" value="Compute deadline"/>
+    </form>
+    
+    <footer>
+      This advanced, next-generation project management algorithm is designed by <a href="https://twitter.com/dhmacher/">Daniel Hutmacher</a>. Follow me for more groundbreaking ideas on database development and gifs.
+    </footer>
+    
+    <deadline>
+      <span>
+      Your deadline is Monday, November 15, 2021 at 3 p.m.
+      </span><br/>
+      <input type="button" value="Ok"/>
+    </deadline>
+  </body>
+</html>
